@@ -578,8 +578,8 @@ a {
 ul {
     list-style: none;
 }
-.footer-subscribe{
-    width: 453px;
+.footer-subscribe {
+    margin-left: 80px;
 }
 .footer-subscribe-a {
     margin-bottom: 16px;

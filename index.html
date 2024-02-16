@@ -510,39 +510,69 @@
           </svg>
         </button>
         <p class="modal-title">Leave your contacts and we will call yo back</p>
-        <form class="modal-form"></form>
-        <div class="madal-input">
-          <label class="modal-label" for="last-first">Name</label>
-          <div class="modal-on">
+        <form class="modal-form">
+          <div class="madal-input">
+            <label class="modal-label" for="last-first">Name</label>
+            <div class="modal-on">
+              <input
+                class="modal-in"
+                type="text"
+                name="last-first"
+                id="last-first"
+              />
+              <svg class="modal-icon-in" wight="18" height="24">
+                <use href="./images/icons2.svg#icon-Vector"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="madal-input">
+            <label class="modal-label" for="phone">Phone</label>
+            <div class="modal-on">
+              <input class="modal-in" type="tel" name="phone" id="phone" />
+              <svg class="modal-icon-in" wight="18" height="24">
+                <use href="./images/icons2.svg#icon-Vector-2"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="madal-input">
+            <label class="modal-label" for="email">Email</label>
+            <div class="modal-on">
+              <input class="modal-in" type="email" name="email" id="email" />
+              <svg class="modal-icon-in" wight="18" height="24">
+                <use href="./images/icons2.svg#icon-Vector-3"></use>
+              </svg>
+            </div>
+          </div>
+          <!--modal-text-->
+          <div class="modal-text">
+            <label for="modal-label" for="comment">Comment</label>
+            <textarea
+              name="textarea"
+              name="comment"
+              id="comment"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <!--checkbox-->
+          <div class="modal-checkbox">
             <input
-              class="modal-in"
-              type="text"
-              name="last-first"
-              id="last-first"
+              class="madal-input-checkbox"
+              type="checkbox"
+              name="privacy"
+              id=""
             />
-            <svg class="modal-icon-in" wight="18" height="24">
-              <use href="./images/icons2.svg#icon-Vector"></use>
-            </svg>
+            <label for="modal-label-checkbox" for="privacy">
+              <span class="modal-span">
+                <svg class="modal-checkbox-icon" widht="10" height="8">
+                  <use href="./images/icons2.svg#icon-Vector-4"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a class="modal-checkbox-link" href="#"> Privacy Policy</a>
+            </label>
           </div>
-        </div>
-        <div class="madal-input">
-          <label class="modal-label" for="phone">Phone</label>
-          <div class="modal-on">
-            <input class="modal-in" type="tel" name="phone" id="phone" />
-            <svg class="modal-icon-in" wight="18" height="24">
-              <use href="./images/icons2.svg#icon-Vector-2"></use>
-            </svg>
-          </div>
-        </div>
-        <div class="madal-input">
-          <label class="modal-label" for="email">Email</label>
-          <div class="modal-on">
-            <input class="modal-in" type="email" name="email" id="email" />
-            <svg class="modal-icon-in" wight="18" height="24">
-              <use href="./images/icons2.svg#icon-Vector-3"></use>
-            </svg>
-          </div>
-        </div>
+          <button class="maodal-button" type="submit">Send</button>
+        </form>
       </div>
     </div>
   </body>

@@ -771,8 +771,8 @@ background-color: #404bbf;
     border: 1px solid rgba(46, 47, 66, 0.4);
     background-color: transparent
 }
-.textarea:hover,
-.textarea:focus {
+.modal-textarea:hover,
+.modal-textarea:focus {
     border-color: #4D5AE5;
 }
 .modal-text {
@@ -789,7 +789,7 @@ background-color: #404bbf;
     color: #8e8f99;
     visibility: hidden;
 }
-.modal-checkbox-link {
+.modal-label-checkbox {
     font-size: 12px;
     font-weight: 400;
     line-height: 1;
@@ -797,7 +797,7 @@ background-color: #404bbf;
     color: #4D5AE5;
     text-decoration-line: underline;
 }
-.modal-checkbox-link
+.modal-label-checkbox
 +.madal-input-checkbox
 >.modal-span {
     display: inline-flex;

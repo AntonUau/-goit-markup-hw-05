@@ -646,6 +646,7 @@ background-color: #404bbf;
 }
 .icon-subscribe {
     fill: #FFFFFF;
+    margin-left: 16px;
 }
 .modal-container {
     position: fixed;

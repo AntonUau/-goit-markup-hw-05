@@ -852,7 +852,11 @@ background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
 }
-
+.modal-span:checked {
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
+}
 .modal-checkbox-link:hover {
     color: #4d5ae5;
 }

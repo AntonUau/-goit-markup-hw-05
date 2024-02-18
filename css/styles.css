@@ -787,7 +787,7 @@ background-color: #404bbf;
 .modal-checkbox {
     margin-bottom: 24px;
 }
-.madal-input-checkbox {
+.modal-label-checkbox{
     font-size: 12px;
     font-weight: 400;
     line-height: 1.17;
@@ -795,7 +795,7 @@ background-color: #404bbf;
     color: #8e8f99;
     visibility: hidden;
 }
-.modal-label-checkbox {
+.modal-checkbox-link {
     font-size: 12px;
     font-weight: 400;
     line-height: 1;

@@ -842,6 +842,12 @@ background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
 }
+.modal-input-checkbox:checked {
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
+}
+
 .modal-checkbox-link:hover {
     color: #4d5ae5;
 }

@@ -804,8 +804,8 @@ background-color: #404bbf;
     text-decoration-line: underline;
 }
 .modal-label-checkbox
-+ .madal-input-checkbox
-> .modal-span {
+ + .madal-input-checkbox
+ > .modal-span {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -821,9 +821,9 @@ background-color: #404bbf;
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-checkbox-link:checked
-+ .madal-input-checkbox
-> .modal-span {
-    background-color: #404BBF;
+ + .madal-input-checkbox
+ > .modal-span {
+    background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
 }
